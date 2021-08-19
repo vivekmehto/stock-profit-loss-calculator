@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #eeeeee;
+  color: #512d6d;
 }
 
 .container {
@@ -17,8 +19,20 @@ label {
   width: 20%;
 }
 
+input {
+  background-color: #c2ffd9;
+  color: black;
+}
+
 #check-btn {
+  background-color: #320d55a1;
+  color: #c2ffd9;
   margin: 1rem;
   padding: 0.5rem;
   width: 10%;
+}
+
+#output-div {
+  font-size: 2rem;
+  font-weight: bolder;
 }

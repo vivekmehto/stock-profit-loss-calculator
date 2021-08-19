@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+input,
+label {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem auto;
+  display: block;
+}
+
+#check-btn {
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 10%;
+}

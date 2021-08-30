@@ -2,8 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #eeeeee;
-  color: #512d6d;
+  background-color: #662d91;
+  color: white;
 }
 
 .container {
@@ -11,8 +11,12 @@
   text-align: center;
 }
 
-input,
-label {
+.heading {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+input {
   padding: 0.5rem 1rem;
   margin: 0.5rem auto;
   display: block;
@@ -25,7 +29,7 @@ input {
 }
 
 #check-btn {
-  background-color: #320d55a1;
+  background-color: #58109ca1;
   color: #c2ffd9;
   margin: 1rem;
   padding: 0.5rem;
@@ -35,19 +39,6 @@ input {
 #output-div {
   font-size: 2rem;
   font-weight: bolder;
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    width: 90%;
-  }
-
-  input {
-    width: 60%;
-  }
-  #check-btn {
-    width: 80%;
-  }
 }
 
 .footer {
@@ -97,12 +88,16 @@ input {
   }
 
   input {
-    width: 60%;
+    width: 70%;
   }
   #check-btn {
     width: 80%;
   }
   .footer {
     left: 5%;
+  }
+
+  #output-div {
+    font-size: 1.5rem;
   }
 }

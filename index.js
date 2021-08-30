@@ -6,16 +6,19 @@ const outputDiv = document.querySelector("#output-div");
 
 function calculateProfitAndLoss(initial, quantity, current) {
   if (initial > current) {
+    console.log("loss");
     var loss = (initial - current) * quantity;
     var lossPercentage = (loss / initial) * 100;
     outputDiv.style.color = "red";
     outputDiv.innerText = `The Loss is ${loss} and the Loss Percentage is ${lossPercentage}%`;
   } else if (initial < current) {
+    console.log("profit");
     var profit = (current - initial) * quantity;
     var profitPercentage = (profit / initial) * 100;
     outputDiv.style.color = "green";
     outputDiv.innerText = `The Profit is ${profit} and the Profit Percentage is ${profitPercentage}%`;
   } else {
+    console.log("equal");
     outputDiv.style.color = "yellow";
     outputDiv.innerText = "No Pain No Gain";
   }

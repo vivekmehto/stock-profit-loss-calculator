@@ -2,8 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #662d91;
-  color: white;
+  background-color: #d1d5db;
 }
 
 .container {
@@ -25,11 +24,10 @@ input {
 
 input {
   background-color: #c2ffd9;
-  color: black;
 }
 
 #check-btn {
-  background-color: #58109ca1;
+  background-color: #760adb;
   color: #c2ffd9;
   margin: 1rem;
   padding: 0.5rem;
@@ -46,7 +44,7 @@ input {
   bottom: 0;
   left: 40%;
   padding: 2rem 1rem;
-  color: white;
+  color: black;
   text-align: center;
 }
 
@@ -70,7 +68,7 @@ input {
 }
 
 .footer .link {
-  color: white;
+  color: black;
 }
 
 .footer .footer-header {
